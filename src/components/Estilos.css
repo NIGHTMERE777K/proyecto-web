@@ -1,0 +1,65 @@
+.Formulario{
+
+max-width: 5000px;
+margin: 5rem auto;
+padding: 5rem;
+background-color: #050930;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(240, 5, 5, 0.1);
+
+}
+
+.Formulario label{
+    
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+
+
+}
+
+.Formulario input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Formulario button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.Formulario button:hover {
+    background-color: #0056b3;
+}
+.Formulario:hover{
+    background-color: rgb(20, 4, 113);
+
+
+}
+.Formulario ya-tienes-cuenta {
+    margin-top: 50rem;
+    font-size: 160px;
+    font-weight: bold;
+    color: gray;
+}
+
+.Formulario a {
+    background: none; /* Elimina cualquier fondo */
+    border: none; /* Quita cualquier borde */
+    text-decoration: none; /* Quita el subrayado */
+    color: rgb(234, 234, 244); /* Ajusta el color al estilo de un enlace */
+    font-weight: bold; /* Hace el texto más legible */
+  }
+  
+  .Formulario a:hover {
+    text-decoration: underline; /* Solo subrayado al pasar el mouse */
+  }
