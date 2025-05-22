@@ -53,6 +53,29 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.formulario {
+  position: absolute;
+  width: 400px; /* Ajusta según tu diseño */
+  transition: all 0.3s ease-in-out;
+}
+
+.inactivo {
+  opacity: 0.6; /* Hace que el formulario en segundo plano esté visible pero menos resaltado */
+  z-index: 1;
+}
+
+.activo {
+  opacity: 1;
+  z-index: 2;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

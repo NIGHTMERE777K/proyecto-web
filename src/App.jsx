@@ -7,13 +7,25 @@ import Login from './components/Login';
 
 
 function App() {
+  const [formActivo, setFormActivo] = useState('registro'); // Estado inicial
+
   return (
-    <div className="App">
-      <FormularioRegistro />
-      <Login />
+    <div className="container">
+      <div
+        className={`formulario ${formActivo === 'registro' ? 'activo' : 'inactivo'}`}
+        onClick={() => setFormActivo('registro')}
+      >
+        <FormularioRegistro />
+      </div>
+
+      <div
+        className={`formulario ${formActivo === 'login' ? 'activo' : 'inactivo'}`}
+        onClick={() => setFormActivo('login')}
+      >
+        <Login />
+      </div>
     </div>
   );
 }
 
-
-export default App
+export default App;
