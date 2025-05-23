@@ -40,3 +40,24 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.botones-toggle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.botones-toggle button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+}
+
+.botones-toggle button:hover {
+  background-color: #0056b3;
+}

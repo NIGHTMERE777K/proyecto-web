@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import FormularioRegistro from './components/FormularioRegistro'
+import { useState } from 'react';
+import './App.css';
+import FormularioRegistro from './components/FormularioRegistro';
 import Login from './components/Login';
-
+import './components/Estilos.css';
 
 function App() {
-  const [formActivo, setFormActivo] = useState('registro'); // Estado inicial
+  const [formActivo, setFormActivo] = useState('registro');
 
   return (
     <div className="container">
